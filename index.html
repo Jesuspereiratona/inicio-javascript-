@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notificaciones JS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    #mensaje {
+      display: none;
+      background: #ffe0e0;
+      border: 2px solid red;
+      color: red;
+      padding: 16px 24px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Formulario de prueba</h2>
+  <button onclick="mostrarError()">Enviar</button>
+  <div id="mensaje"></div>
+
+  <script src="assets/js/arreglos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
